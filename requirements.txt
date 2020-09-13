@@ -2,6 +2,7 @@ anytree==2.8.0
 appdirs==1.4.4
 Beaker==1.11.0
 Brlapi==0.7.0
+beautifulsoup4==4.9.1
 btrfsutil==1.2.0
 CacheControl==0.12.6
 chardet==3.0.4
