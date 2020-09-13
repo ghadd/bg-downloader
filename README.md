@@ -3,11 +3,9 @@
 Really mini 30min project to help you download cute backgrounds for your machine without quitting your fancy console!
 
 ## Installation 
+I hope, you've already forgot what is python2, so execute this with python3-pip surely.
 ```
-$ git clone https://github.com/ghadd/bg-downloader
-$ cd bg-downloader
-$ sudo chmod +x bgd.sh
-$ ./bgd.sh
+$ pip install git+https://github.com/ghadd/bg-downloader
 ```
 
 ## Testing out
