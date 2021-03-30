@@ -37,7 +37,7 @@ pep517==0.8.2
 progress==1.5
 pwquality==1.4.2
 pycairo==1.19.1
-Pygments==2.6.1
+Pygments==2.7.4
 PyGObject==3.36.1
 pylint==2.6.0
 pyparsing==2.4.7
